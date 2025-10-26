@@ -81,7 +81,7 @@ export default function Pricing() {
                 </div>
 
                 <div className="glass-effect rounded-2xl p-8">
-                  <h3 className="text-2xl font-bold mb-6">What's Included</h3>
+                  <h3 className="text-2xl font-bold mb-6">What&apos;s Included</h3>
                   <div className="space-y-6">
                     {[
                       { title: 'Volume Discounts', desc: 'Custom pricing based on usage' },
@@ -133,7 +133,7 @@ export default function Pricing() {
               },
               {
                 q: 'What happens if I exceed my plan limits?',
-                a: 'We\'ll notify you when you\'re approaching your limits. You can upgrade anytime or purchase additional resources as needed.',
+                a: 'We&apos;ll notify you when you&apos;re approaching your limits. You can upgrade anytime or purchase additional resources as needed.',
               },
               {
                 q: 'Do you offer refunds?',
