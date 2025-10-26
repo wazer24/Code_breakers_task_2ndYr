@@ -80,7 +80,7 @@ const PricingTable = () => {
         <button
           onClick={() => setIsYearly(!isYearly)}
           className={`relative w-16 h-8 rounded-full transition-colors duration-300 ${
-            isYearly ? 'bg-gradient-to-r from-primary-500 to-secondary-500' : 'bg-gray-700'
+            isYearly ? 'bg-gradient-to-r from-lime-500 to-lime-700' : 'bg-gray-700'
           }`}
         >
           <motion.div
@@ -110,12 +110,12 @@ const PricingTable = () => {
             key={plan.name}
             delay={index * 0.1}
             className={`relative ${
-              plan.popular ? 'border-2 border-primary-500 shadow-2xl shadow-primary-500/20' : ''
+              plan.popular ? 'border-2 border-lime-500 shadow-2xl shadow-lime-500/20' : ''
             }`}
           >
             {plan.popular && (
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="px-4 py-1 bg-gradient-to-r from-primary-500 to-secondary-500 text-white text-sm font-semibold rounded-full">
+                <span className="px-4 py-1 bg-gradient-to-r from-lime-500 to-lime-700 text-white text-sm font-semibold rounded-full">
                   Most Popular
                 </span>
               </div>
@@ -135,7 +135,7 @@ const PricingTable = () => {
             <ul className="space-y-4 mb-8">
               {plan.features.map((feature) => (
                 <li key={feature} className="flex items-start">
-                  <Check className="w-5 h-5 text-primary-400 mr-3 mt-0.5 flex-shrink-0" />
+                  <Check className="w-5 h-5 text-lime-400 mr-3 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-300">{feature}</span>
                 </li>
               ))}
@@ -155,3 +155,4 @@ const PricingTable = () => {
 }
 
 export default PricingTable
+

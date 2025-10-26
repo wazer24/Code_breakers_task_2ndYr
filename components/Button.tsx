@@ -23,9 +23,9 @@ const Button: React.FC<ButtonProps> = ({
   const baseStyles = 'font-semibold rounded-lg transition-all duration-300 transform hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0'
   
   const variants = {
-    primary: 'bg-gradient-to-r from-primary-500 to-secondary-500 text-white hover:from-primary-600 hover:to-secondary-600 shadow-lg hover:shadow-xl hover:shadow-primary-500/50',
+    primary: 'bg-gradient-to-r from-lime-500 to-lime-700 text-white hover:from-lime-600 hover:to-lime-800 shadow-lg hover:shadow-xl hover:shadow-lime-500/50',
     secondary: 'bg-gray-800 text-white hover:bg-gray-700 border border-gray-700 hover:border-gray-600',
-    outline: 'bg-transparent text-white border-2 border-gray-700 hover:border-primary-500 hover:bg-primary-500/10',
+    outline: 'bg-transparent text-white border-2 border-gray-700 hover:border-lime-500 hover:bg-lime-500/10',
   }
   
   const sizes = {
@@ -49,3 +49,4 @@ const Button: React.FC<ButtonProps> = ({
 }
 
 export default Button
+

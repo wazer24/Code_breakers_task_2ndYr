@@ -45,7 +45,7 @@ export default function Pricing() {
             transition={{ duration: 0.6 }}
             className="relative overflow-hidden rounded-3xl glass-effect p-12 md:p-16"
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-secondary-500/10"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-lime-500/10 to-lime-700/10"></div>
             <div className="relative z-10">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div>
@@ -66,7 +66,7 @@ export default function Pricing() {
                       'Custom integration services',
                     ].map((feature) => (
                       <li key={feature} className="flex items-center text-gray-700 dark:text-gray-300">
-                        <Check className="w-5 h-5 text-primary-400 mr-3 flex-shrink-0" />
+                        <Check className="w-5 h-5 text-lime-400 mr-3 flex-shrink-0" />
                         {feature}
                       </li>
                     ))}
@@ -89,7 +89,7 @@ export default function Pricing() {
                       { title: 'Custom Features', desc: 'Tailored solutions for your needs' },
                       { title: 'Training & Onboarding', desc: 'Comprehensive team training' },
                     ].map((item) => (
-                      <div key={item.title} className="border-l-2 border-primary-500 pl-4">
+                      <div key={item.title} className="border-l-2 border-lime-500 pl-4">
                         <div className="font-semibold text-white">{item.title}</div>
                         <div className="text-gray-600 dark:text-gray-400 text-sm">{item.desc}</div>
                       </div>
@@ -158,4 +158,5 @@ export default function Pricing() {
     </div>
   )
 }
+
 

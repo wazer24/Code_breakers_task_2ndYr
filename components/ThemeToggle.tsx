@@ -38,7 +38,7 @@ export default function ThemeToggle() {
         transition={{ duration: 0.3, ease: 'easeInOut' }}
         className="absolute inset-0 flex items-center justify-center"
       >
-        <Moon className="w-5 h-5 text-primary-400" />
+        <Moon className="w-5 h-5 text-lime-400" />
       </motion.div>
       
       <motion.div
@@ -60,3 +60,4 @@ export default function ThemeToggle() {
     </motion.button>
   );
 }
+

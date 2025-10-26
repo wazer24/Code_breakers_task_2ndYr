@@ -79,7 +79,7 @@ export default function Contact() {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-primary-500 transition-colors text-white"
+                      className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-lime-500 transition-colors text-white"
                       placeholder="Your name"
                     />
                   </div>
@@ -95,7 +95,7 @@ export default function Contact() {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-primary-500 transition-colors text-white"
+                      className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-lime-500 transition-colors text-white"
                       placeholder="your@email.com"
                     />
                   </div>
@@ -111,7 +111,7 @@ export default function Contact() {
                       value={formData.message}
                       onChange={handleChange}
                       rows={6}
-                      className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-primary-500 transition-colors text-white resize-none"
+                      className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-lime-500 transition-colors text-white resize-none"
                       placeholder="Tell us how we can help..."
                     />
                   </div>
@@ -150,7 +150,7 @@ export default function Contact() {
 
               <div className="space-y-6">
                 <div className="glass-effect rounded-xl p-6 flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-br from-lime-500 to-lime-700 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -161,7 +161,7 @@ export default function Contact() {
                 </div>
 
                 <div className="glass-effect rounded-xl p-6 flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-br from-lime-500 to-lime-700 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -172,7 +172,7 @@ export default function Contact() {
                 </div>
 
                 <div className="glass-effect rounded-xl p-6 flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-br from-lime-500 to-lime-700 rounded-lg flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -183,7 +183,7 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="glass-effect rounded-xl p-6 bg-gradient-to-br from-primary-500/10 to-secondary-500/10">
+              <div className="glass-effect rounded-xl p-6 bg-gradient-to-br from-lime-500/10 to-lime-700/10">
                 <h3 className="font-semibold text-white mb-2">Need immediate help?</h3>
                 <p className="text-gray-600 dark:text-gray-400 text-sm mb-4">
                   Check out our documentation or join our community Discord for real-time support.
@@ -212,7 +212,7 @@ export default function Contact() {
             transition={{ duration: 0.6 }}
             className="glass-effect rounded-2xl overflow-hidden"
           >
-            <div className="aspect-video bg-gradient-to-br from-primary-500/20 to-secondary-500/20 flex items-center justify-center">
+            <div className="aspect-video bg-gradient-to-br from-lime-500/20 to-lime-700/20 flex items-center justify-center">
               <div className="text-center">
                 <MapPin className="w-16 h-16 text-gray-600 dark:text-gray-400 mx-auto mb-4" />
                 <p className="text-gray-600 dark:text-gray-400">Map Placeholder</p>
@@ -225,5 +225,6 @@ export default function Contact() {
     </div>
   )
 }
+
 
 

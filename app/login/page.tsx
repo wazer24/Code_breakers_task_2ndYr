@@ -40,7 +40,7 @@ export default function Login() {
           {/* Logo */}
           <div className="text-center mb-8">
             <Link href="/" className="inline-flex items-center space-x-2 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center">
+              <div className="w-12 h-12 bg-gradient-to-r from-lime-500 to-lime-700 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-2xl">V</span>
               </div>
               <span className="text-3xl font-bold font-display gradient-text">
@@ -66,7 +66,7 @@ export default function Login() {
                   required
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full pl-11 pr-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-primary-500 transition-colors text-white"
+                  className="w-full pl-11 pr-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-lime-500 transition-colors text-white"
                   placeholder="you@example.com"
                 />
               </div>
@@ -85,7 +85,7 @@ export default function Login() {
                   required
                   value={formData.password}
                   onChange={handleChange}
-                  className="w-full pl-11 pr-12 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-primary-500 transition-colors text-white"
+                  className="w-full pl-11 pr-12 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-lime-500 transition-colors text-white"
                   placeholder="••••••••"
                 />
                 <button
@@ -105,11 +105,11 @@ export default function Login() {
                   name="remember"
                   checked={formData.remember}
                   onChange={handleChange}
-                  className="w-4 h-4 rounded border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-900 text-primary-500 focus:ring-primary-500"
+                  className="w-4 h-4 rounded border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-900 text-lime-500 focus:ring-lime-500"
                 />
                 <span className="ml-2 text-sm text-gray-600 dark:text-gray-400">Remember me</span>
               </label>
-              <Link href="/forgot-password" className="text-sm text-primary-400 hover:text-primary-300">
+              <Link href="/forgot-password" className="text-sm text-lime-400 hover:text-primary-300">
                 Forgot password?
               </Link>
             </div>
@@ -148,7 +148,7 @@ export default function Login() {
           {/* Sign Up Link */}
           <p className="mt-6 text-center text-gray-600 dark:text-gray-400">
             Don't have an account?{' '}
-            <Link href="/signup" className="text-primary-400 hover:text-primary-300 font-semibold">
+            <Link href="/signup" className="text-lime-400 hover:text-primary-300 font-semibold">
               Sign up
             </Link>
           </p>
@@ -157,5 +157,6 @@ export default function Login() {
     </div>
   )
 }
+
 
 

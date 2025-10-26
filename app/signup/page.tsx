@@ -43,7 +43,7 @@ export default function Signup() {
           {/* Logo */}
           <div className="text-center mb-8">
             <Link href="/" className="inline-flex items-center space-x-2 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center">
+              <div className="w-12 h-12 bg-gradient-to-r from-lime-500 to-lime-700 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-2xl">V</span>
               </div>
               <span className="text-3xl font-bold font-display gradient-text">
@@ -69,7 +69,7 @@ export default function Signup() {
                   required
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full pl-11 pr-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-primary-500 transition-colors text-white"
+                  className="w-full pl-11 pr-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-lime-500 transition-colors text-white"
                   placeholder="John Doe"
                 />
               </div>
@@ -88,7 +88,7 @@ export default function Signup() {
                   required
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full pl-11 pr-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-primary-500 transition-colors text-white"
+                  className="w-full pl-11 pr-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-lime-500 transition-colors text-white"
                   placeholder="you@example.com"
                 />
               </div>
@@ -107,7 +107,7 @@ export default function Signup() {
                   required
                   value={formData.password}
                   onChange={handleChange}
-                  className="w-full pl-11 pr-12 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-primary-500 transition-colors text-white"
+                  className="w-full pl-11 pr-12 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-lime-500 transition-colors text-white"
                   placeholder="••••••••"
                 />
                 <button
@@ -133,7 +133,7 @@ export default function Signup() {
                   required
                   value={formData.confirmPassword}
                   onChange={handleChange}
-                  className="w-full pl-11 pr-12 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-primary-500 transition-colors text-white"
+                  className="w-full pl-11 pr-12 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:border-lime-500 transition-colors text-white"
                   placeholder="••••••••"
                 />
                 <button
@@ -154,15 +154,15 @@ export default function Signup() {
                 required
                 checked={formData.terms}
                 onChange={handleChange}
-                className="w-4 h-4 mt-1 rounded border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-900 text-primary-500 focus:ring-primary-500"
+                className="w-4 h-4 mt-1 rounded border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-900 text-lime-500 focus:ring-lime-500"
               />
               <label htmlFor="terms" className="ml-2 text-sm text-gray-600 dark:text-gray-400">
                 I agree to the{' '}
-                <Link href="/terms" className="text-primary-400 hover:text-primary-300">
+                <Link href="/terms" className="text-lime-400 hover:text-primary-300">
                   Terms of Service
                 </Link>{' '}
                 and{' '}
-                <Link href="/privacy" className="text-primary-400 hover:text-primary-300">
+                <Link href="/privacy" className="text-lime-400 hover:text-primary-300">
                   Privacy Policy
                 </Link>
               </label>
@@ -202,7 +202,7 @@ export default function Signup() {
           {/* Login Link */}
           <p className="mt-6 text-center text-gray-600 dark:text-gray-400">
             Already have an account?{' '}
-            <Link href="/login" className="text-primary-400 hover:text-primary-300 font-semibold">
+            <Link href="/login" className="text-lime-400 hover:text-primary-300 font-semibold">
               Sign in
             </Link>
           </p>
@@ -211,5 +211,6 @@ export default function Signup() {
     </div>
   )
 }
+
 
 

@@ -12,8 +12,8 @@ export default function Home() {
       <section className="relative overflow-hidden section-padding min-h-screen flex items-center">
         {/* Animated Background */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-500/20 rounded-full blur-3xl animate-float"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary-500/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
+          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-lime-500/20 rounded-full blur-3xl animate-float"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-lime-700/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
         </div>
 
         <div className="container-custom relative z-10">
@@ -28,9 +28,9 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                className="inline-flex items-center px-4 py-2 rounded-full glass-effect border border-primary-500/30 mb-6"
+                className="inline-flex items-center px-4 py-2 rounded-full glass-effect border border-lime-500/30 mb-6"
               >
-                <Sparkles className="w-4 h-4 text-primary-400 mr-2" />
+                <Sparkles className="w-4 h-4 text-lime-400 mr-2" />
                 <span className="text-sm font-medium">The Future of Web3 is Here</span>
               </motion.div>
 
@@ -83,10 +83,10 @@ export default function Home() {
               className="relative"
             >
               <div className="relative aspect-square">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-500/20 to-secondary-500/20 rounded-3xl blur-2xl"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-lime-500/20 to-lime-700/20 rounded-3xl blur-2xl"></div>
                 <div className="relative glass-effect rounded-3xl p-8 h-full flex items-center justify-center">
                   <div className="text-center">
-                    <div className="w-48 h-48 mx-auto mb-6 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center animate-glow">
+                    <div className="w-48 h-48 mx-auto mb-6 bg-gradient-to-br from-lime-500 to-lime-700 rounded-full flex items-center justify-center animate-glow">
                       <Zap className="w-24 h-24 text-white" />
                     </div>
                     <p className="text-gray-700 dark:text-gray-300">Visual Placeholder</p>
@@ -143,7 +143,7 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="glass-effect rounded-xl p-8 hover:scale-105 transition-transform duration-300"
               >
-                <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-lime-500 to-lime-700 rounded-xl flex items-center justify-center mb-6">
                   <feature.icon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4">{feature.title}</h3>
@@ -179,7 +179,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="relative overflow-hidden rounded-3xl glass-effect p-12 md:p-16"
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-secondary-500/10"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-lime-500/10 to-lime-700/10"></div>
             <div className="relative z-10 text-center">
               <h2 className="text-4xl md:text-5xl font-bold font-display mb-6">
                 Ready to Get Started?
@@ -206,4 +206,5 @@ export default function Home() {
     </div>
   )
 }
+
 

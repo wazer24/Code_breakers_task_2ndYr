@@ -35,6 +35,19 @@ module.exports = {
           900: '#581c87',
           950: '#3b0764',
         },
+        lime: {
+          50: '#f7fee7',
+          100: '#ecfccb',
+          200: '#d9f99d',
+          300: '#bef264',
+          400: '#a3e635',
+          500: '#84cc16',
+          600: '#65a30d',
+          700: '#4d7c0f',
+          800: '#3f6212',
+          900: '#365314',
+          950: '#1a2e05',
+        },
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
@@ -43,9 +56,9 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'gradient-primary': 'linear-gradient(135deg, #0388b3 0%, #00acd6 100%)',
-        'gradient-secondary': 'linear-gradient(135deg, #9333ea 0%, #c084fc 100%)',
-        'gradient-hero': 'linear-gradient(135deg, #0388b3 0%, #9333ea 100%)',
+        'gradient-primary': 'linear-gradient(135deg, #65a30d 0%, #84cc16 100%)',
+        'gradient-secondary': 'linear-gradient(135deg, #4d7c0f 0%, #a3e635 100%)',
+        'gradient-hero': 'linear-gradient(135deg, #65a30d 0%, #4d7c0f 100%)',
       },
       spacing: {
         '128': '32rem',
@@ -63,8 +76,8 @@ module.exports = {
           '50%': { transform: 'translateY(-20px)' },
         },
         glow: {
-          '0%': { boxShadow: '0 0 5px #00acd6, 0 0 10px #00acd6' },
-          '100%': { boxShadow: '0 0 10px #9333ea, 0 0 20px #9333ea' },
+          '0%': { boxShadow: '0 0 5px #84cc16, 0 0 10px #84cc16' },
+          '100%': { boxShadow: '0 0 10px #4d7c0f, 0 0 20px #4d7c0f' },
         },
         slideUp: {
           '0%': { transform: 'translateY(100px)', opacity: '0' },

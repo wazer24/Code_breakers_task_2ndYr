@@ -81,7 +81,7 @@ export default function Features() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <Card key={feature.title} delay={index * 0.1} className="flex flex-col">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-lime-500 to-lime-700 rounded-xl flex items-center justify-center mb-6">
                   <feature.icon className="w-8 h-8 text-white" />
                 </div>
                 
@@ -96,7 +96,7 @@ export default function Features() {
                   <ul className="space-y-2">
                     {feature.benefits.map((benefit) => (
                       <li key={benefit} className="flex items-center text-sm text-gray-600 dark:text-gray-400">
-                        <div className="w-1.5 h-1.5 bg-primary-400 rounded-full mr-2"></div>
+                        <div className="w-1.5 h-1.5 bg-lime-400 rounded-full mr-2"></div>
                         {benefit}
                       </li>
                     ))}
@@ -161,7 +161,7 @@ export default function Features() {
             transition={{ duration: 0.6 }}
             className="relative overflow-hidden rounded-3xl glass-effect p-12 md:p-16 text-center"
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-secondary-500/10"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-lime-500/10 to-lime-700/10"></div>
             <div className="relative z-10">
               <h2 className="text-4xl md:text-5xl font-bold font-display mb-6">
                 Ready to Experience These Features?
@@ -189,4 +189,5 @@ export default function Features() {
     </div>
   )
 }
+
 

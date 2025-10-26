@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-gradient-to-r from-lime-500 to-lime-700 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">V</span>
             </div>
             <span className="text-2xl font-bold font-display gradient-text">
@@ -118,3 +118,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
